@@ -3,9 +3,10 @@ import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-SOURCE_CSV = "polymarket_markets.csv"
-TRAIN_CSV = "train_data.csv"
-REPORT_CSV = "report_data.csv"
+DATA_DIR = "data"
+SOURCE_CSV = os.path.join(DATA_DIR, "polymarket_markets.csv")
+TRAIN_CSV = os.path.join(DATA_DIR, "train_data.csv")
+REPORT_CSV = os.path.join(DATA_DIR, "report_data.csv")
 REPORT_SIZE = 0.20
 RANDOM_STATE = 42
 
