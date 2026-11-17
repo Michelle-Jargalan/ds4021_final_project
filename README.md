@@ -1,2 +1,1 @@
-# ML_Final_Project
-DS 4021 Final Project
+# ds4021_final_project
